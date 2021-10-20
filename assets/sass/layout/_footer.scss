@@ -6,9 +6,6 @@
     justify-content: space-between;
     background-color: $black;
     color: $white;
-    &__uno {
-        width: 50%;
-    }
     & p {
         padding: 30px 0px 0px 80px;
     }
@@ -33,12 +30,15 @@
         flex-direction: column;
         height: 200px;
         text-align: auto;
-        &__uno {
-            width: 100%;
+        & p {
+            padding: 0;
+            text-align: center;
+            padding-top: 40px;
         }
         & ul {
+            padding: 0;
             text-align: center;
-            padding-bottom: 30px;
+            padding-bottom: 40px;
         }
     }
 }

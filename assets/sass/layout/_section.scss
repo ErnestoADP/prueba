@@ -47,6 +47,12 @@
         padding: 10px;
         font-size: 20px;
     }
+    &__dos>div>button {
+        width: 100%;
+        background-color: $sable;
+        color: $white;
+        font-size: 26px;
+    }
     &__dos>div>p {
         padding: 10px;
     }

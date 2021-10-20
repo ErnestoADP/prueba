@@ -105,6 +105,12 @@
   padding: 10px;
   font-size: 20px;
 }
+.section__dos > div > button {
+  width: 100%;
+  background-color: #060606;
+  color: #FFFFFF;
+  font-size: 26px;
+}
 .section__dos > div > p {
   padding: 10px;
 }
@@ -125,9 +131,6 @@
   justify-content: space-between;
   background-color: #000000;
   color: #FFFFFF;
-}
-.footer__uno {
-  width: 50%;
 }
 .footer p {
   padding: 30px 0px 0px 80px;
@@ -152,12 +155,15 @@
     height: 200px;
     text-align: auto;
   }
-  .footer__uno {
-    width: 100%;
+  .footer p {
+    padding: 0;
+    text-align: center;
+    padding-top: 40px;
   }
   .footer ul {
+    padding: 0;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
   }
 }
 
