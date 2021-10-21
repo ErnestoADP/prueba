@@ -29,6 +29,10 @@
         padding: 10px 0px 10px 0px;
         font-size: 20px;
     }
+    &__uno>div>ul>li {
+        display: inline-block;
+        padding: 3px;
+    }
     /*section dos*/
     &__dos {
         border: 1px solid $black;
@@ -47,6 +51,11 @@
         padding: 10px;
         font-size: 20px;
     }
+    &__dos>div>div>ul>li {
+        display: inline-block;
+        padding: 3px;
+        font-size: 22px;
+    }
     &__dos>div>button {
         width: 100%;
         background-color: $sable;
@@ -58,6 +67,10 @@
     }
     &__dos>div>ul {
         padding: 30px;
+    }
+    &__svg {
+        width: 40%;
+        margin: auto;
     }
 }
 
